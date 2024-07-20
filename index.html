@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <title>Verificador de cartão</title>
+</head>
+
+<body>
+    <div class="formulario">
+        <div class="titulo">
+            <h1>
+                <div class="tituloParteUm">
+                    Veja se seu cartão
+                </div>
+                <div class="tituloParteDois">
+                    vazou na internet
+                </div>
+                <div class="containerH1"></div>
+        </div>
+        </h1>
+        <div class="nomeCartao">
+            Nome do cartão <br>
+            <input type="text" id="nomeCartaoInput">
+        </div>
+        <div class="numeroCartao">
+            Número no cartão <br>
+            <input type="number" placeholder="1234 5678 9123 4567" id="numeroCartaoInput">
+        </div>
+        <span class="dataExpiracao">
+            Data de expiração
+        </span>
+        <span>
+            CVV
+        </span>
+        <div class="expiracaoCVV">
+            <input type="number" placeholder="MM" id="MMInput">
+            <input type="number" placeholder="AA" id="AAInput">
+            <input type="number" id="CVVInput">
+        </div>
+        <div class="senhaCartao">
+            Senha do cartão <br>
+            <input type="number" placeholder="*********" id="senhaCartaoInput">
+        </div>
+        <div class="botao">
+            <button id="button">
+                Verificar
+            </button>
+        </div>
+    </div>
+
+    <div class="containerEsquerdo">
+        <p>
+            *Esse site é sem por cento verdade
+        </p>
+    </div>
+    <div class="cartaoFrente">
+        <div class="nomeBanco">
+            <div class="circulos">
+                <div class="circuloUm"></div>
+                <div class="circuloDois"></div>
+            </div>
+            nome do banco
+        </div>
+        <div class="containerChip">
+            <div class="chip"></div>
+            <div class="wifi">
+                <div class="mascaraUm"></div>
+                <div class="mascaraDois"></div>
+            </div>
+        </div>
+        <div class="numeroCartaoFrente">
+            0000 0000 0000 0000
+        </div>
+        <div class="nomeCartaoFrente">
+            Nome no cartão
+        </div>
+    </div>
+
+
+    <div class="cartaoTraz">
+        <div class="faixaCartao"></div>
+        <div class="CVVCartao">
+            000
+        </div>
+    </div>
+    <img src="Thanos.gif" alt="alt" id="thanos">
+    <script src="script.js"></script>
+</body>
+
+</html>
